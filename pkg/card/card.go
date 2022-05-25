@@ -10,3 +10,8 @@ func Issue() types.Card {
 		Currency: types.Currency("TJS"),
 	}
 }
+
+func Withdraw(card types.Card) types.Card {
+	card.Balance -= 100
+	return card
+}
