@@ -41,6 +41,7 @@ const (
 	Somoni  = "TJS"
 	Rubls   = "RUB"
 	Dollars = "USD"
+	Euro    = "EUR"
 )
 
 const (
